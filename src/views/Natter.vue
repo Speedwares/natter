@@ -94,193 +94,78 @@
         </div>
       </div>
       <div id="vector"></div>
-      <div class="section text-center">
-        <div class="container">
-          <h2 class="title">Here is our team</h2>
+      <div class="" id="traveler">
+        <div class="" style="padding: 0px 20px">
+        <div class="travelDiv">
+          <h2 class="title" style="margin-top:0px"> Our Traveler’s Experience</h2>
+          <p>Here’s some travel experience from our traveller’s to help you travel </p>
+
+          <p class="see"><a>SEE MORE</a></p>
+        </div>
+        <div>
           <div class="team">
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg1"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Gigi Hadid
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
+                 <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col">
+                      <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+                            
+                          <ul style="width:65%;padding:0px; height: 100%" class="grid_part">
+                          <li style="display: inline; padding:20px; margin-top:20px; width: 40%">
+                        <img src="../assets/img/Group.png" class="grid_img" alt="">
+                        </li>
+                        <li style="display:inline; float: right; padding-right:30px;padding-top:30px">
+                        <span>Jeremih Dalot</span>
+                           <p class="stared" alt=""></p>
+                        </li>
+                          </ul>
+                          </div>
+                          <div> </div>
+                      </div>
+                  </div>
+           <div class="md-layout-item md-medium-size-33 md-small-size-100">
+                 <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col">
+                      <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+                            
+                          <ul style="width:65%;padding:0px; height: 100%" class="grid_part">
+                          <li style="display: inline; padding:20px; margin-top:20px; width: 40%">
+                        <img src="../assets/img/Group.png" class="grid_img" alt="">
+                        </li>
+                        <li style="display:inline; float: right; padding-right:30px;padding-top:30px">
+                        <span>Jeremih Dalot</span>
+                           <p class="stared" alt=""></p>
+                        </li>
+                          </ul>
+                          </div>
+                          <div> </div>
+                      </div>
+                  </div>
+                     <div class="md-layout-item md-medium-size-33 md-small-size-100">
+                 <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col">
+                      <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex flex-col">
+                            
+                          <ul style="width:65%;padding:0px; height: 100%" class="grid_part">
+                          <li style="display: inline; padding:20px; margin-top:20px; width: 40%">
+                        <img src="../assets/img/Group.png" class="grid_img" alt="">
+                        </li>
+                        <li style="display:inline; float: right; padding-right:0px;padding-top:0px">
+                        <span>Jeremih Dalot</span>
+                           <p class="stared" alt=""></p>
+                        </li>
+                          </ul>
+                          </div>
+                          <div> </div>
+                      </div>
+                  </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg2"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Carla Hortensia
-                      <br />
-                      <small class="card-description text-muted"
-                        >Designer</small
-                      >
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg3"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Kendall Jenner
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
+            
             </div>
+          </div>
           </div>
         </div>
       </div>
       <div class="section section-contacts">
         <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
-              </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+       
         </div>
       </div>
     </div>
@@ -340,7 +225,8 @@ export default {
       return {
         backgroundImage: `url(${this.thirdImg})`,
         height: `220px`,
-        backgroundRepeat: `no-repeat`
+        backgroundRepeat: `no-repeat`,
+        backgroundSize: `cover`
       };
     }
   }
@@ -395,4 +281,31 @@ export default {
        background: url(../assets/img/vector4.png);
     height: 100px;
     }
+    .see{
+      float:right;
+      font-size:16px;
+      font-weight:700;
+      margin-top: -120px
+
+    }
+    #traveler{
+      background:#F2F8F7;
+    }
+    .travelDiv{
+      width: 100%;
+    }
+    .travelDiv p{
+      margin-top: -25px;
+    }
+    .grid_img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.stared{
+  background: url(../assets/img/ratings.png);
+  height: 15px;
+  width:100%;
+  background-repeat: 'no-repeat';
+  background-size:cover;
+}
 </style>

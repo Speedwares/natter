@@ -14,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "index",
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      name: "natter",
+      components: { default: Natter, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
@@ -30,15 +30,7 @@ export default new Router({
         footer: { backgroundColor: "black" }
       }
     },
-    {
-      path: "/natter",
-      name: "natter",
-      components: { default: Natter, header: MainNavbar, footer: MainFooter },
-      props: {
-        header: { colorOnScroll: 400 },
-        footer: { backgroundColor: "black" }
-      }
-    },
+  
     {
       path: "/login",
       name: "login",
